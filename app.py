@@ -12,7 +12,7 @@ DATA_FILE = "students.json" #capital me is liye likhte h kyu ki is ka name aage 
 #Helper Function
 #--------------------------
 def load_students(): # purani file load karne ke liye
-    if not os.psth.exists(DATA_FILE): #file na mile to use error bata de
+    if not os.path.exists(DATA_FILE): #file na mile to use error bata de
         return []
     if os.path.getsize(DATA_FILE) == 0:
         return []
