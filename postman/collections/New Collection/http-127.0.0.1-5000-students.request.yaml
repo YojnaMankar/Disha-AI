@@ -1,0 +1,19 @@
+$kind: http-request
+name: " http://127.0.0.1:5000/students"
+description: ""
+url: http://127.0.0.1:5000/students
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": \"123\"\r
+
+    \    \"name\": \"yojna\",\r
+
+    \    \"age\": \"24\",\r
+
+    \    \"course\": \"ICT\"\r
+
+    }"
+order: 1785393375704
